@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/api/license/check", "dest": "/api/license/check.js" },
+    { "src": "/api/license/start-trial", "dest": "/api/license/start-trial.js" },
+    { "src": "/api/license/activate", "dest": "/api/license/activate.js" },
+    { "src": "/api/license/create-key", "dest": "/api/license/create-key.js" }
+  ]
+}
